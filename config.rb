@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+# Backup v4.x Configuration
+
 require 'figaro'
 Figaro.application = Figaro::Application.new(:environment => 'production',
                                              :path => 'config/application.yml')
